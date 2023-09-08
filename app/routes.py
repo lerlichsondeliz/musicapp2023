@@ -13,19 +13,19 @@ artists_data = [
         'id': 2,
         'name': "Gunpoets",
         'songs': "Song 3, Song 4",
-        'general_info': "Hip-hop group from Ithaca",
+        'general_info': "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
     {
         'id': 3,
         'name': "Donna The Buffalo",
         'songs': "Song 5, Song 6",
-        'general_info': "Folk-rock band from Ithaca",
+        'general_info': "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Eu mi bibendum neque egestas congue.",
     },
     {
         'id': 4,
         'name': "The Blind Spots",
         'songs': "Song 7, Song 8",
-        'general_info': "Indie rock band from Ithaca",
+        'general_info': "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl tincidunt eget nullam non nisi est.",
     },
 
 ]
