@@ -29,6 +29,8 @@ artists_data = [
     },
 
 ]
+
+
 @app.route('/')
 @app.route('/index')
 def index():
@@ -44,9 +46,18 @@ def artists():
 @app.route('/new_artists', methods=['GET', 'POST'])
 def new_artists():
     form = NewArtistForm()
+
     if form.validate_on_submit():
+        new_artist = {
+            'id': len(artists_data) + 1,
+            'name': form.name.data,
+            'songs': form.songs.data,
+            'general_info': form.general_info.data
+        }
+        artists_data.append(new_artist)
+
         flash('Artist added successfully', 'success')
-        return redirect(url_for('new_artists'))
+        return redirect(url_for('artists'))
 
     return render_template('new_artists.html', title='New Artists', form=form)
 
